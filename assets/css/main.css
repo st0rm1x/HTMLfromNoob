@@ -1,3 +1,5 @@
+@import url(header.css);
+@import url(footer.css);
 @font-face {
   font-family: 'Fira Sans';
   font-style: normal;
@@ -510,8 +512,9 @@ body {
     .page-home article:last-child {
       margin-bottom: 0px; }
 
-/* line 28, main.sass */
+/* line 30, main.sass */
 body {
-  background: white; }
+  background: #eee;
+  margin: 0px !important; }
 
 /*# sourceMappingURL=main.css.map */

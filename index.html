@@ -1,16 +1,19 @@
+<!DOCTYPE html>
 <html>
 
 <head>
     <script type="text/javascript" src="assets/js/jquery-3.1.1.min.js"></script>
     <script type="text/javascript" src="assets/js/util.js"></script>
     <link rel="stylesheet" type="text/CSS" href="assets/css/main.css">
+    <script>
+    $(function() {
+        $("#header").load("header.html");
+    });
+    </script>
 </head>
 
 <body>
-<span style="font-family: RobotoRegular;">Roboto Regular</span>
-<span style="font-family: RobotoBold;">Roboto Bold</span>
-<span style="font-family: RobotoMedium;">Roboto Medium</span>
-
+	<div id="header"></div>
 </body>
 
 </html>

@@ -1,0 +1,53 @@
+/* line 1, header.sass */
+header {
+  height: 450px;
+  background: url(../images/header_logo.jpg);
+  background-size: cover; }
+  /* line 6, header.sass */
+  header .logo {
+    width: 50px;
+    height: 50px;
+    background: #999;
+    float: left;
+    margin: 10px 0 0 30px; }
+  /* line 13, header.sass */
+  header nav {
+    float: right;
+    margin: 30px 30px 0 0; }
+    /* line 17, header.sass */
+    header nav a {
+      display: inline-block;
+      margin-left: 20px;
+      color: rgba(0, 0, 0, 0.7);
+      font-size: 14px;
+      font-family: RobotoMedium;
+      text-transform: uppercase; }
+      /* line 26, header.sass */
+      header nav a:hover {
+        color: black; }
+  /* line 29, header.sass */
+  header h1 {
+    text-align: center;
+    font-size: 72px;
+    font-family: RobotoMedium;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    margin-bottom: 20px;
+    clear: both;
+    padding-top: 80px; }
+    /* line 41, header.sass */
+    header h1 span {
+      display: inline-block;
+      padding: 0.2em 0.5em;
+      border: 10px solid white; }
+  /* line 46, header.sass */
+  header .kicker {
+    text-align: center;
+    font-size: 20px;
+    font-family: RobotoMedium;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: white; }
+
+/*# sourceMappingURL=header.css.map */
